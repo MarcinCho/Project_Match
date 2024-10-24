@@ -1,0 +1,17 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "\\\\wsl.localhost\\Ubuntu\\home\\marcin\\my_documents\\DOT_NET\\Project_Match\\backend\\API\\projectMatch.db",
+            "name": "pm"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "\\\\wsl.localhost\\Ubuntu\\home\\marcin\\my_documents\\DOT_NET\\Project_Match\\backend\\API\\projectMatch.sqlite",
+            "name": "ssss"
+        }
+    ]
+}
