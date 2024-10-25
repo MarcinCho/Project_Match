@@ -12,6 +12,18 @@
             "driver": "SQLite",
             "database": "\\\\wsl.localhost\\Ubuntu\\home\\marcin\\my_documents\\DOT_NET\\Project_Match\\backend\\API\\projectMatch.sqlite",
             "name": "ssss"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "\\\\wsl.localhost\\Ubuntu\\home\\marcin\\my_documents\\DOT_NET\\Project_Match\\backend\\API\\projectMatch.sqlite",
+            "name": "eeeee"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "\\\\wsl.localhost\\Ubuntu\\home\\marcin\\my_documents\\DOT_NET\\Project_Match\\backend\\API\\projectMatch.sqlite",
+            "name": "4444"
         }
     ]
 }
