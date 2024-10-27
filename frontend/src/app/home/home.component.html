@@ -1,0 +1,28 @@
+<div class="container mt-4">
+  <div class="text-align-center">
+    @if(!registerMode){
+    <h1>Find your company</h1>
+    <p class="lead">Come and find the company to execute your project!</p>
+    <div class="text-center">
+      <button (click)="registerToggle()" class="btn btn-primary btn-lg me-2">
+        Sign in as a Client
+      </button>
+      <button (click)="registerToggle()" class="btn btn-secondary btn-lg me-2">
+        Sign in as a Company
+      </button>
+      <button class="btn btn-info btn-lg me-2">Learn more</button>
+    </div>
+    } @else if (registerMode) {
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <app-register
+            [usersFromHomeComponent]="users"
+            (cancelRegister)="cancelReg($event)"
+          ></app-register>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>
