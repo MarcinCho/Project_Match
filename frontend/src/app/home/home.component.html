@@ -1,5 +1,5 @@
 <div class="container mt-4">
-  <div class="text-align-center">
+  <div style="text-align: center">
     @if(!registerMode){
     <h1>Find your company</h1>
     <p class="lead">Come and find the company to execute your project!</p>
@@ -16,10 +16,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-4">
-          <app-register
-            [usersFromHomeComponent]="users"
-            (cancelRegister)="cancelReg($event)"
-          ></app-register>
+          <app-register (cancelRegister)="cancelReg($event)"></app-register>
         </div>
       </div>
     </div>

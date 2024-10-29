@@ -12,15 +12,27 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="#">Project Match</a>
+      <a routerLink="/" class="navbar-brand" href="#">Project Match</a>
 
       @if(!accountService.currentUser()) {
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li>
-          <a class="nav-link" aria-current="page" href="#">Companies</a>
+        <li class="nav-item">
+          <a
+            routerLink="/companies"
+            class="nav-link"
+            routerLinkActive="active"
+            href="#"
+            >Companies</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Contact</a>
+          <a
+            routerLink="/contact"
+            class="nav-link"
+            routerLinkActive="active"
+            href="#"
+            >Contact</a
+          >
         </li>
       </ul>
       <form
@@ -43,18 +55,36 @@
           type="password"
           placeholder="password"
         />
-        <button class="btn btn-outline-success" type="submit">Login</button>
+        <button class="btn btn-success" type="submit">Login</button>
       </form>
       } @if(accountService.currentUser()){
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Projects</a>
+          <a
+            routerLink="/projects"
+            class="nav-link"
+            routerLinkActive="active"
+            href="#"
+            >Projects</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Companies</a>
+          <a
+            routerLink="/companies"
+            class="nav-link"
+            routerLinkActive="active"
+            href="#"
+            >Companies</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Chat</a>
+          <a
+            routerLink="/messages"
+            class="nav-link"
+            routerLinkActive="active"
+            href="#"
+            >Chat</a
+          >
         </li>
       </ul>
       <div dropdown class="dropdown">
@@ -62,7 +92,7 @@
           <a
             dropdownToggle
             class="dropdown-toggle text-lite text-decoration-none"
-            >Welcome</a
+            >Welcome {{ accountService.currentUser()?.username | titlecase }}</a
           >
         </button>
 
