@@ -1,0 +1,227 @@
+[
+  {
+    "UserName": "Townsend Bowman",
+    "Created": "2023-05-28",
+    "LastActive": "2024-06-19",
+    "Location": "{{city()} ,{country()}}",
+    "Company": false,
+    "Comercial": false,
+    "PrivateUser": true,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/50.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Margret Serrano",
+    "Created": "2023-06-11",
+    "LastActive": "2024-05-25",
+    "Location": "{{city()} ,{country()}}",
+    "Company": false,
+    "Comercial": false,
+    "PrivateUser": true,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/17.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Erna York",
+    "Created": "2023-01-13",
+    "LastActive": "2024-05-05",
+    "Location": "{{city()} ,{country()}}",
+    "Company": true,
+    "Comercial": false,
+    "PrivateUser": true,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/33.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Wolf Rose",
+    "Created": "2023-04-12",
+    "LastActive": "2024-05-25",
+    "Location": "{{city()} ,{country()}}",
+    "Company": false,
+    "Comercial": false,
+    "PrivateUser": true,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/62.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Kane Hayden",
+    "Created": "2023-03-03",
+    "LastActive": "2024-06-16",
+    "Location": "{{city()} ,{country()}}",
+    "Company": true,
+    "Comercial": true,
+    "PrivateUser": true,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/81.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Allyson Stanley",
+    "Created": "2023-01-17",
+    "LastActive": "2024-05-17",
+    "Location": "{{city()} ,{country()}}",
+    "Company": false,
+    "Comercial": true,
+    "PrivateUser": false,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/70.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Lucile Mcintyre",
+    "Created": "2023-01-01",
+    "LastActive": "2024-06-23",
+    "Location": "{{city()} ,{country()}}",
+    "Company": false,
+    "Comercial": true,
+    "PrivateUser": true,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/20.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Mcdonald Craft",
+    "Created": "2023-06-06",
+    "LastActive": "2024-06-02",
+    "Location": "{{city()} ,{country()}}",
+    "Company": false,
+    "Comercial": true,
+    "PrivateUser": true,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/14.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Cardenas Sawyer",
+    "Created": "2023-01-07",
+    "LastActive": "2024-05-02",
+    "Location": "{{city()} ,{country()}}",
+    "Company": false,
+    "Comercial": true,
+    "PrivateUser": true,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/20.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Katrina Brady",
+    "Created": "2023-01-16",
+    "LastActive": "2024-05-22",
+    "Location": "{{city()} ,{country()}}",
+    "Company": false,
+    "Comercial": true,
+    "PrivateUser": false,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/83.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Alberta Ruiz",
+    "Created": "2023-04-09",
+    "LastActive": "2024-05-31",
+    "Location": "{{city()} ,{country()}}",
+    "Company": false,
+    "Comercial": true,
+    "PrivateUser": false,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/53.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Chasity Merrill",
+    "Created": "2023-06-01",
+    "LastActive": "2024-05-01",
+    "Location": "{{city()} ,{country()}}",
+    "Company": true,
+    "Comercial": false,
+    "PrivateUser": false,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/31.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Lowe Fields",
+    "Created": "2023-01-18",
+    "LastActive": "2024-06-03",
+    "Location": "{{city()} ,{country()}}",
+    "Company": true,
+    "Comercial": false,
+    "PrivateUser": true,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/47.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Candy Bass",
+    "Created": "2023-03-18",
+    "LastActive": "2024-06-27",
+    "Location": "{{city()} ,{country()}}",
+    "Company": true,
+    "Comercial": true,
+    "PrivateUser": false,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/32.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Antoinette Kidd",
+    "Created": "2023-01-23",
+    "LastActive": "2024-05-09",
+    "Location": "{{city()} ,{country()}}",
+    "Company": true,
+    "Comercial": true,
+    "PrivateUser": true,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/34.jpg",
+        "IsMain": true
+      }
+    ]
+  }
+]

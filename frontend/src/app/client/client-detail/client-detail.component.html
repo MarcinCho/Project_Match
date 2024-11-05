@@ -1,0 +1,48 @@
+@if (client) {
+<div class="row">
+  <div class="col-4">
+    <div class="card">
+      <img
+        class="card-img img-thumbnail"
+        src="{{ client.photoUrl || './assets/user.jpg' }}"
+        alt="{{ client.username }}"
+      />
+      <div class="card-body">
+        <div>
+          <h3>Info</h3>
+          <p>{{ client.userEmail }}, {{ client.location }}</p>
+        </div>
+        <div class="btn-group d-flex"></div>
+      </div>
+      <div class="card-footer">
+        <div class="btn-group d-flex">
+          <button class="btn btn-primary">Like</button>
+          <button class="btn btn-success">Message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-8">
+    <tabset class="client-tabset">
+      <tab heading="About {{ client.username }}">
+        <h4>created</h4>
+        <p>{{ client.created }}</p>
+        <h4>Looking for</h4>
+        <p>{{ client.userCompany }}</p>
+      </tab>
+      <tab heading="Interests">
+        <h4>Interests</h4>
+        <p>placeholder</p>
+      </tab>
+      <tab heading="Photos" #photoTab="tab">
+        @if (photoTab.active) {
+        <gallery [items]="images" class="gallery"></gallery>
+        }
+      </tab>
+      <tab heading="Messages">
+        <p>Messages will go here</p>
+      </tab>
+    </tabset>
+  </div>
+</div>
+}
